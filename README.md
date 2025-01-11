@@ -1,0 +1,1 @@
+This repository demonstrates a common CSS bug related to selector specificity. The `bug.css` file contains the erroneous CSS, resulting in the `span` element within the paragraph not being styled as intended. The solution, provided in `bugSolution.css`, addresses this by correctly managing the specificity of CSS selectors.
