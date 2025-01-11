@@ -1,0 +1,15 @@
+The solution modifies the CSS selectors to prevent unintended style overriding. By adjusting the order and specificity of the selectors, we ensure that the styles are applied as expected to both the `p` and `span` elements. The corrected CSS is provided below:
+
+```css
+.container {
+  background-color: lightblue;
+}
+
+.container p {
+  color: blue;
+}
+
+.container span {
+  color: green; 
+}
+```
